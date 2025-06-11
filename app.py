@@ -7,20 +7,6 @@ import numpy as np
 from lime.lime_tabular import LimeTabularExplainer
 import streamlit as st
 
-# Set beige background color using custom CSS
-st.markdown(
-    """
-    <style>
-        body {
-            background-color: #f5f5dc;
-        }
-        .stApp {
-            background-color: #f5f5dc;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 # Load the trained pipeline
